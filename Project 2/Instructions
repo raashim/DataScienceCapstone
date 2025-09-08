@@ -1,0 +1,33 @@
+Please go to www.kaggle.com/datasets and select a dataset that interests you.
+
+ 
+
+Here are some strictly necessary criterion for your dataset
+
+2000+ datapoints (rows)
+At least two categorical variables
+At least one continuous variable
+At least one numeric variable
+ 
+
+Here are some (highly recommended but not strictly necessary) criterion for your dataset:
+
+Usability score 8.0+
+Relatively recently published/updated
+ 
+
+Items to include in your report
+
+The kaggle link for your dataset
+Establish a null and alternative hypothesis, and conduct either a permutation test or z-test
+You will lose points if your hypothesis is too simple/obvious (ex: If your null hypothesis is "rent in Manhattan NYC is equal to rent in {some random rural town}", and you reject your null hypothesis, your finding isn't of great particular interest (unless you can defend why you expected rent in America's most expensive city to be statistically equivalent to {some random rural town}))
+Provide three visualizations that each can make an argument/claim on their own, or collectively make an argument/claim together
+Be prepared to defend your visualizations if asked
+Don't use the same type of graph for all three plots (I don't want to see three histograms)
+Please add a paragraph under each visualization and the hypothesis test to explain the argument you are making in each case.
+ 
+
+You are required to submit 2 things: Your code and your report (which includes the visualizations & hypothesis test).
+
+The code file can be submitted in any reasonable format (.R, .ipynb, etc.). The report file can be submitted in any reasonable format (.pdf, .docx, etc.).
+

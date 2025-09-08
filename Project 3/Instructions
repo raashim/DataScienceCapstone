@@ -1,0 +1,41 @@
+Your goal in this assignment is to predict whether or not a flight is eligible for a discount.. This will be accomplished by building a prediction model with the use of the training data, and applying it to the testing data.
+
+ 
+
+Chapters 16-18 will likely be helpful if you are lost: https://data101-text.cs.rutgers.edu/Rdata10
+
+ 
+
+First study the training data set for patterns. For example, one trivial pattern could be, if ‘Ticket Price’ < 50, then ‘Eligible_For_Discount’ is ‘Yes’’. Obviously, the correct solution is significantly more complicated and will require “sub”-patterns/derived attributes. Note that the pattern may not make intuitive sense (Ex: A possible nonsensical pattern could be if the passenger’s first name is less than 4 letters, the eligibility for a discount is automatically considered ‘Yes’).
+
+ 
+
+An additional csv located under files called “airport_country_code_mapping.csv” will be necessary.
+
+ 
+
+There is no noise in the either dataset. This means that if you have a correct model, your output would be 100% accurate. Yes an overfit decision tree will achieve 100% accuracy, but you should try to find the simplest one possible using derived attributes you create. A simpler model with lower accuracy may score higher than a complex model with perfect accuracy. Effort will be taken into account when grading.
+
+ 
+
+After you have found the best/simplest possible model you can, apply it to the testing dataset to determine whether or not a flight is considered “Yes” or “No”.
+
+You are required to submit 3 things. Your code, a brief text file describing your model (what are the four patterns), and your prediction file.
+
+The code file can be submitted in any reasonable format (.R, .ipynb, etc.). Your prediction file should be in .csv format.
+
+ 
+
+Hints:
+1 Apply airport_country_code_mapping.csv
+
+2 Partition the departure date into day, month, and year
+
+3 Gender and Ticket Price are connected in part of the decision
+
+4 Extremely old and extremely young passengers should be considered
+
+ 
+
+Additional Notes:
+Try addressing the hints in this order: 4, 2, 3, 1. Each one corresponds to a pattern.
